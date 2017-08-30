@@ -17,8 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIView *veiw = [[UIView alloc]init];
-    veiw.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 40);
+    UIView *view = [[UIView alloc]init];
+    view.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 40);
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
