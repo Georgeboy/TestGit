@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UIView *veiw = [[UIView alloc]init];
-    
+    veiw.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 40);
 }
 
 - (void)didReceiveMemoryWarning {
